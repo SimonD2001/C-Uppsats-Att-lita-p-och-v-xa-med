@@ -110,4 +110,44 @@ margins, dydx(Andel_Med_Tillit) at(Eco_FEconomicFreedomSummaryIndexree_10 =(0.0 
 marginsplot
 
 
+********************************************************************************
+
+* Appendix 9, Tabell 17 Robusthet Kontroll för BNP; WVS
+
+* Reg 1 
+reg Growth Andel_Med_Tillit Rule_of_law_index Befolkning_tillväxt i.country i.wave, robus
+
+* Reg 2
+reg Growth Andel_Med_Tillit Political_corruption_index Befolkning_tillväxt i.country i.wave, robus
+
+* Reg 3
+reg Growth Andel_Med_Tillit Executive_corruption_index Befolkning_tillväxt i.country i.wave, robus
+
+* Reg 4
+reg Growth Andel_Med_Tillit Public_sector_corruption_index Befolkning_tillväxt i.country i.wave, robus
+
+* Reg 5
+reg Growth Andel_Med_Tillit EconomicFreedomSummaryIndex Befolkning_tillväxt i.country i.wave, robus
+
+********************************************************************************
+
+* Appendix 10, Tabell 17 Robusthetskontroll för BNP; EVS
+
+* Reg 1
+reg Growth Andel_Med_Tillit Rule_of_law_index Befolkning_tillväxt i.country i.wave, robus
+
+* Reg 2
+reg Growth Andel_Med_Tillit Political_corruption_index Befolkning_tillväxt i.country i.wave, robus
+
+* Reg 3
+reg Growth Andel_Med_Tillit Executive_corruption_index Befolkning_tillväxt i.country i.wave, robus
+
+* Reg 4
+reg Growth Andel_Med_Tillit Public_sector_corruption_index Befolkning_tillväxt i.country i.wave, robus
+
+* Reg 5
+reg Growth Andel_Med_Tillit EconomicFreedomSummaryIndex Befolkning_tillväxti.country i.wave, robus
+
+
+
 
