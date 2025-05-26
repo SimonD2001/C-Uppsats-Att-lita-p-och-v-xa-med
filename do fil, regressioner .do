@@ -58,22 +58,27 @@ kning_tillväxt i.country i.wave, robust
 * Reg 1 
 reg Growth c.Andel_Med_Tillit##c.Rule_of_law_index TusenBNPcapita Befolkning_tillväxt i.country i.wave ,robust
 margins, dydx(Andel_Med_Tillit) at(Rule_of_law_index =(0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0))
+marginsplot
 
 * Reg 2 
 reg Growth c.Andel_Med_Tillit##c.Political_corruption_index TusenBNPcapita Befolkning_tillväxt i.country i.wave ,robust
 margins, dydx(Andel_Med_Tillit) at(Political_corruption_index =(0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0))
+marginsplot
 
 * Reg 3 
 reg Growth c.Andel_Med_Tillit##c.Executive_corruption_index TusenBNPcapita Befolkning_tillväxt i.country i.wave ,robust
 margins, dydx(Andel_Med_Tillit) at(Executive_corruption_index =(0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0))
+marginsplot
 
 * Reg 4 
 reg Growth c.Andel_Med_Tillit##c.Public_sector_corruption_index TusenBNPcapita Befolkning_tillväxt i.country i.wave ,robust
 margins, dydx(Andel_Med_Tillit) at(Public_sector_corruption_index =(0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0))
+marginsplot
 
 * Reg 5 
 reg Growth c.Andel_Med_Tillit##c.EconomicFreedomSummaryIndex TusenBNPcapita Befolkning_tillväxt i.country i.wave ,robust
 margins, dydx(Andel_Med_Tillit) at(Eco_Free_10 =(0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0))
+marginsplot
 
 ********************************************************************************
 
@@ -82,22 +87,27 @@ margins, dydx(Andel_Med_Tillit) at(Eco_Free_10 =(0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7
 * Reg 1 
 reg Growth c.Andel_Med_Tillit##c.Rule_of_law_index TusenBNPcapita Befolkning_tillväxt i.country i.wave ,robust
 margins, dydx(Andel_Med_Tillit) at(Rule_of_law_index =(0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0))
+marginsplot
 
 * Reg 2 
 reg Growth c.Andel_Med_Tillit##c.Political_corruption_index TusenBNPcapita Befolkning_tillväxt i.country i.wave ,robust
 margins, dydx(Andel_Med_Tillit) at(Political_corruption_index =(0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0))
+marginsplot
 
 * Reg 3 
 reg Growth c.Andel_Med_Tillit##c.Executive_corruption_index TusenBNPcapita Befolkning_tillväxt i.country i.wave ,robust
 margins, dydx(Andel_Med_Tillit) at(Executive_corruption_index =(0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0))
+marginsplot
 
 * Reg 4 
 reg Growth c.Andel_Med_Tillit##c.Public_sector_corruption_index TusenBNPcapita Befolkning_tillväxt i.country i.wave ,robust
 margins, dydx(Andel_Med_Tillit) at(Public_sector_corruption_index =(0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0))
+marginsplot
 
 * Reg 5 
 reg Growth c.Andel_Med_Tillit##c.EconomicFreedomSummaryIndex TusenBNPcapita Befolkning_tillväxt i.country i.wave ,robust
 margins, dydx(Andel_Med_Tillit) at(Eco_FEconomicFreedomSummaryIndexree_10 =(0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0))
+marginsplot
 
 
 
